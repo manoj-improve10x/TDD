@@ -20,6 +20,6 @@ public class PalendremeTest {
     public void givenTwoNumbers() {
         Palendrome palendrome = new Palendrome();
         boolean number = palendrome.isNumber(121);
-        assertEquals(false,number);
+        assertEquals(true,number);
     }
 }
