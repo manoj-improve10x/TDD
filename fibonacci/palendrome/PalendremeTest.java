@@ -22,4 +22,11 @@ public class PalendremeTest {
         boolean number = palendrome.isNumber(121);
         assertEquals(true,number);
     }
+
+    @Test
+    public void givenTwoNumbers_return() {
+        Palendrome palendrome = new Palendrome();
+        boolean number = palendrome.isNumber(120);
+        assertEquals(false,number);
+    }
 }
