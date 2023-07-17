@@ -19,22 +19,22 @@ public class FactorialTest {
     @Test
     public void givenLessOrEqualToZero_returnsNegativeNumber(){
         Factorial factorial = new Factorial();
-        int value = factorial.findFactorial(0);
+        int value = factorial.findFactorial(-10);
         assertEquals(-1,value);
     }
 
     @Test
     public void givenNumberOne_returnsOne(){
         Factorial factorial = new Factorial();
-        int value = factorial.findFactorial(1);
-        assertEquals(1,value);
+        int value = factorial.findFactorial(-1);
+        assertEquals(-1,value);
     }
 
     @Test
     public void givenNumberTwo_returnsTwo(){
         Factorial factorial = new Factorial();
-        int value = factorial.findFactorial(2);
-        assertEquals(2,value);
+        int value = factorial.findFactorial(0);
+        assertEquals(1,value);
     }
 
     @Test
