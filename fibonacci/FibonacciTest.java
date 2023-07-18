@@ -31,7 +31,7 @@ public class FibonacciTest {
         assertEquals(1,num);
     }
 
-    //0,1,1,2,3,5
+    //0,1,1,2,3,5,8,13,21
     @Test
     public void fibonacciTwo_returnOne() {
         Fibonacci fibonacci = new Fibonacci();
