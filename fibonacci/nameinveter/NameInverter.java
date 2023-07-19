@@ -1,4 +1,4 @@
-package fibonacci.nameInveter;
+package fibonacci.nameinveter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

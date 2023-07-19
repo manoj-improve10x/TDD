@@ -1,4 +1,4 @@
-package fibonacci.scoringSystem;
+package fibonacci.scoringsystem;
 
 public class Scoring {
     public int[] calculateScores(Object numbers) {

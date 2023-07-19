@@ -1,6 +1,5 @@
-package fibonacci.upvotesDownvotes;
+package fibonacci.upvotesdownvotes;
 
-import fibonacci.lessThenHundred.LessThenHundred;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;

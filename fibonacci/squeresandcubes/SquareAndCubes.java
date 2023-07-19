@@ -1,4 +1,4 @@
-package fibonacci.squeresAndCubes;
+package fibonacci.squeresandcubes;
 
 public class SquareAndCubes {
     public boolean arr(int[] ints) {

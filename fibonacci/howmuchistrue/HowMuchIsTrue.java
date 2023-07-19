@@ -1,4 +1,4 @@
-package fibonacci.howMuchIsTrue;
+package fibonacci.howmuchistrue;
 
 public class HowMuchIsTrue {
     public int howIsMuchTrue(String[] str) {

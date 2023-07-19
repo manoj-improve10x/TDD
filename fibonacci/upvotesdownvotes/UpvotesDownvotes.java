@@ -1,4 +1,4 @@
-package fibonacci.upvotesDownvotes;
+package fibonacci.upvotesdownvotes;
 
 public class UpvotesDownvotes {
 

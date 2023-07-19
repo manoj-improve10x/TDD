@@ -1,4 +1,4 @@
-package fibonacci.nameInveter;
+package fibonacci.nameinveter;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

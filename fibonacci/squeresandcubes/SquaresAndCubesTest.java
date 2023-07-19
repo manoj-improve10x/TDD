@@ -1,4 +1,4 @@
-package fibonacci.squeresAndCubes;
+package fibonacci.squeresandcubes;
 
 import org.junit.jupiter.api.Test;
 

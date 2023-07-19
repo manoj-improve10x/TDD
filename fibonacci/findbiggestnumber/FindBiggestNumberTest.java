@@ -1,4 +1,4 @@
-package fibonacci.findBiggestNumber;
+package fibonacci.findbiggestnumber;
 
 import org.junit.jupiter.api.Test;
 

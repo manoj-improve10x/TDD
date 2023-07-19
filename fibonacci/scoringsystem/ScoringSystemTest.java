@@ -1,6 +1,5 @@
-package fibonacci.scoringSystem;
+package fibonacci.scoringsystem;
 
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertArrayEquals;

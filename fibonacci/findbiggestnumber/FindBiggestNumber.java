@@ -1,4 +1,4 @@
-package fibonacci.findBiggestNumber;
+package fibonacci.findbiggestnumber;
 
 public class FindBiggestNumber {
     public int findBigNumberInArray(int[]arr) {

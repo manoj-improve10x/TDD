@@ -1,4 +1,4 @@
-package fibonacci.howMuchIsTrue;
+package fibonacci.howmuchistrue;
 
 import org.junit.jupiter.api.Test;
 

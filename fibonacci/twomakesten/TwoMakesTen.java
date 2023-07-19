@@ -1,4 +1,4 @@
-package fibonacci.twoMakesTen;
+package fibonacci.twomakesten;
 
 public class TwoMakesTen {
     public boolean isNumbersTen(int a, int b) {

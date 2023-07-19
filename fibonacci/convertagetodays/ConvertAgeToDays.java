@@ -1,4 +1,4 @@
-package fibonacci.convertAgeToDays;
+package fibonacci.convertagetodays;
 
 public class ConvertAgeToDays {
     public int personAge(int age) {

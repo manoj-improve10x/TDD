@@ -1,4 +1,4 @@
-package fibonacci.convertAgeToDays;
+package fibonacci.convertagetodays;
 
 import org.junit.jupiter.api.Test;
 

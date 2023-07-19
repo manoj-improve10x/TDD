@@ -1,4 +1,4 @@
-package fibonacci.lessThenHundred;
+package fibonacci.lessthenhundred;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;

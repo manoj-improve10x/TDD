@@ -1,4 +1,4 @@
-package fibonacci.lessThenHundred;
+package fibonacci.lessthenhundred;
 
 public class LessThenHundred {
     public boolean isNumbersAreLessThen(int a, int b) {
