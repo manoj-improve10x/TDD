@@ -2,9 +2,9 @@ package fibonacci.finddiscountproblem;
 
 public class FindDiscount {
 
-    public int findDiscount(int price, int discount) {
-        int discountAmount = 0;
-        int finalPrice = 0;
+    public float findDiscount(float price, int discount) {
+        float discountAmount = 0;
+        float finalPrice = 0;
         if (price > 0) {
             discountAmount = price * discount / 100;
             finalPrice = price - discountAmount;
