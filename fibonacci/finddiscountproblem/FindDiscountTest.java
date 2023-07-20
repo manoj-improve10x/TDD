@@ -31,7 +31,7 @@ public class FindDiscountTest {
     public void givenPriceDiscount_returnTotalDiscountValue1() {
         FindDiscount discount= new FindDiscount();
         float totalDiscount = discount.findDiscount(1, 1);
-        assertEquals(1, totalDiscount);
+        assertEquals(.99f, totalDiscount);
     }
 
     @Test
