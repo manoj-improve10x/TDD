@@ -13,7 +13,7 @@ public class PalindromeString {
             result = true;
         }else if(name == " "){
             result = true;
-        }else if(name.equals(reverse)) {
+        }else if(name.equalsIgnoreCase(reverse)) {
             result= true;
         }
         return result;

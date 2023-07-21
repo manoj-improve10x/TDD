@@ -46,4 +46,9 @@ public class PalindromeStringTest {
         boolean result = palindromeString.findPalindrome("aa");
         assertEquals(true,result);
     }
+    @Test
+    public void giveTwoSameIgnoreCase_returnTrue() {
+        boolean result = palindromeString.findPalindrome("aA");
+        assertEquals(true,result);
+    }
 }
