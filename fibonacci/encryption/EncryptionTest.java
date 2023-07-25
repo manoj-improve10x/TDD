@@ -103,23 +103,23 @@ public class EncryptionTest {
 
     }
     @Test
-    public void givengf_returnsfgaca() {
+    public void givenab_returnb0aca() {
         Encryption encryption = new Encryption();
-        String result = encryption.getEncryption("gf");
-        assertEquals("fgaca",result);
+        String result = encryption.getEncryption("ab");
+        assertEquals("b0aca",result);
 
-    }
-    /*@Test
-    public void giveno_returns2aca() {
-        Encryption encryption = new Encryption();
-        String result = encryption.getEncryption("2");
-        assertEquals("2aca",result);
     }
     @Test
-    public void givenu_returns4aca() {
+    public void givebanana_returns0n0n0baca() {
         Encryption encryption = new Encryption();
-        String result = encryption.getEncryption("u");
-        assertEquals("4aca",result);
+        String result = encryption.getEncryption("banana");
+        assertEquals("0n0n0baca",result);
+    }
+    @Test
+    public void givenapple_return1lpp0aca() {
+        Encryption encryption = new Encryption();
+        String result = encryption.getEncryption("apple");
+        assertEquals("1lpp0aca",result);
 
-    }*/
+    }
 }
