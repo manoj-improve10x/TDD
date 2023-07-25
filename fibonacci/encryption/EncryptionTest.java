@@ -88,4 +88,38 @@ public class EncryptionTest {
         assertEquals("4aca",result);
 
     }
+    @Test
+    public void givencb_returnsbcaca() {
+        Encryption encryption = new Encryption();
+        String result = encryption.getEncryption("cb");
+        assertEquals("bcaca",result);
+
+    }
+    @Test
+    public void givenmn_returnsnmaca() {
+        Encryption encryption = new Encryption();
+        String result = encryption.getEncryption("mn");
+        assertEquals("nmaca",result);
+
+    }
+    @Test
+    public void givengf_returnsfgaca() {
+        Encryption encryption = new Encryption();
+        String result = encryption.getEncryption("gf");
+        assertEquals("fgaca",result);
+
+    }
+    /*@Test
+    public void giveno_returns2aca() {
+        Encryption encryption = new Encryption();
+        String result = encryption.getEncryption("2");
+        assertEquals("2aca",result);
+    }
+    @Test
+    public void givenu_returns4aca() {
+        Encryption encryption = new Encryption();
+        String result = encryption.getEncryption("u");
+        assertEquals("4aca",result);
+
+    }*/
 }

@@ -5,17 +5,21 @@ public class Encryption {
         if(word == null || word.equals("")){
             return "aca";
         }
-        if(word.equals("a")) {
-            word = "0";
-        } else if(word.equals("e")){
-            word ="1";
-        }else if(word.equals("i")){
-            word ="2";
-        }else if(word.equals("o")){
-            word ="3";
-        }else if(word.equals("u")){
-            word ="4";
+        StringBuilder stringBuilder = new StringBuilder(word);
+        stringBuilder.reverse();
+        String reverse = stringBuilder.toString();
+
+        if(reverse.equals("a")) {
+            reverse = "0";
+        } else if(reverse.equals("e")){
+            reverse ="1";
+        }else if(reverse.equals("i")){
+            reverse ="2";
+        }else if(reverse.equals("o")){
+            reverse ="3";
+        }else if(reverse.equals("u")){
+            reverse ="4";
         }
-        return word +"aca";
+        return reverse +"aca";
     }
 }
