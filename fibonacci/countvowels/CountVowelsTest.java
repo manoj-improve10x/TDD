@@ -55,4 +55,35 @@ public class CountVowelsTest {
         int result = countVowels.howManyVowels("u");
         assertEquals(1,result);
     }
+    @Test
+    public void givebc_returns0(){
+        CountVowels countVowels = new CountVowels();
+        int result = countVowels.howManyVowels("bc");
+        assertEquals(0,result);
+    }
+    @Test
+    public void givejk_returns0(){
+        CountVowels countVowels = new CountVowels();
+        int result = countVowels.howManyVowels("jk");
+        assertEquals(0,result);
+    }
+
+    @Test
+    public void giveab_returns1(){
+        CountVowels countVowels = new CountVowels();
+        int result = countVowels.howManyVowels("ab");
+        assertEquals(1,result);
+    }
+    @Test
+    public void giveabe_returns1(){
+        CountVowels countVowels = new CountVowels();
+        int result = countVowels.howManyVowels("abe");
+        assertEquals(2,result);
+    }
+    @Test
+    public void giveabei_returns3(){
+        CountVowels countVowels = new CountVowels();
+        int result = countVowels.howManyVowels("abei");
+        assertEquals(3,result);
+    }
 }
